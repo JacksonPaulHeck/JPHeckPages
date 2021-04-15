@@ -21,13 +21,16 @@
 
 .Section {
   margin: 1vw;
-  border-radius: 10px;
-  border-width: 10px;
-  border-color: white;
+  border-top: .3vw solid white;
 }
 
 .Section-title {
   text-align: center;
+}
+
+ul {
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 li {
