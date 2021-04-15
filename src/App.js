@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <h1 className="TitleName">Jackson Paul Heck</h1>
         <h3 className="ContactInfo">(479) 530-7351 • jacksonheck1@gmail.com</h3>
-        <img alt="JPHPhoto" src={portrait}></img>
+        <img className="JPHPhoto" alt="JPHPhoto" src={portrait}></img>
       </header>
       <body className="App-body">
         <div className="Section">

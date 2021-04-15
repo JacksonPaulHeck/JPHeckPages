@@ -11,7 +11,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.ContactInfo {
+  font-size: 1em;
+}
 .App-body {
   color: white;
   font-size: calc(10px + 1vmin);
@@ -36,6 +38,9 @@ ul {
 li {
   margin-left: 4vw;
 }
-
+.JPHPhoto {
+  width: 80%;
+  height: auto;
+}
 
 
