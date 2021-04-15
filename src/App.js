@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import portrait from './JacksonPaulHeckPhoto.jpeg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1 className="TitleName">Jackson Paul Heck</h1>
+        <h3 className="ContactInfo">(479) 530-7351 • jacksonheck1@gmail.com</h3>
+        <img alt="JPHPhoto" src={portrait}></img>
       </header>
+      <body>
+      </body>
     </div>
   );
 }
