@@ -38,9 +38,12 @@ ul {
 li {
   margin-left: 4vw;
 }
-.JPHPhoto {
-  width: 80%;
-  height: auto;
+@media only screen and (max-width: 750px){
+  .JPHPhoto {
+    width: 80%;
+    height: auto;
+  }
 }
+
 
 
