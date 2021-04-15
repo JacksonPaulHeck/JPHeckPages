@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/JPHeckPages/static/css/main.fd0f031a.chunk.css",
-    "main.js": "/JPHeckPages/static/js/main.451dc332.chunk.js",
-    "main.js.map": "/JPHeckPages/static/js/main.451dc332.chunk.js.map",
+    "main.css": "/JPHeckPages/static/css/main.259dfe58.chunk.css",
+    "main.js": "/JPHeckPages/static/js/main.8dde0aa9.chunk.js",
+    "main.js.map": "/JPHeckPages/static/js/main.8dde0aa9.chunk.js.map",
     "runtime-main.js": "/JPHeckPages/static/js/runtime-main.2820609f.js",
     "runtime-main.js.map": "/JPHeckPages/static/js/runtime-main.2820609f.js.map",
     "static/js/2.6734daca.chunk.js": "/JPHeckPages/static/js/2.6734daca.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.12502f3d.chunk.js": "/JPHeckPages/static/js/3.12502f3d.chunk.js",
     "static/js/3.12502f3d.chunk.js.map": "/JPHeckPages/static/js/3.12502f3d.chunk.js.map",
     "index.html": "/JPHeckPages/index.html",
-    "static/css/main.fd0f031a.chunk.css.map": "/JPHeckPages/static/css/main.fd0f031a.chunk.css.map",
+    "static/css/main.259dfe58.chunk.css.map": "/JPHeckPages/static/css/main.259dfe58.chunk.css.map",
     "static/js/2.6734daca.chunk.js.LICENSE.txt": "/JPHeckPages/static/js/2.6734daca.chunk.js.LICENSE.txt",
     "static/media/JacksonPaulHeckPhoto.042359eb.jpeg": "/JPHeckPages/static/media/JacksonPaulHeckPhoto.042359eb.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.2820609f.js",
     "static/js/2.6734daca.chunk.js",
-    "static/css/main.fd0f031a.chunk.css",
-    "static/js/main.451dc332.chunk.js"
+    "static/css/main.259dfe58.chunk.css",
+    "static/js/main.8dde0aa9.chunk.js"
   ]
 }
