@@ -22,6 +22,17 @@ function App() {
             <h5>https://apiportal.jbhunt.com/ <br/> This is a link to the web service that I most recently put into production.</h5>
           </li>
         </ul>
+
+        <h3>TYSON FOODS, Springdale, AR</h3>
+        <ul>
+        <h4>INFORMATION TECHNOLOGY INTERN (June 2021 – August 2021)</h4>
+          <li>
+            <h5>Worked with a team of interns on multiple summer-long projects; this internship utilized the AGILE Project Methodology and allowed me to become very experienced in this style of teamwork. Developed both front-end and back-end applications. Moved from an intern team to a full-time developer team and continued into the school year.</h5>
+          </li>
+          <li>
+            <h5>https://apiportal.jbhunt.com/ <br/> This is a link to the web service that I most recently put into production.</h5>
+          </li>
+        </ul>
         </div>
 
         <div className="Section">
