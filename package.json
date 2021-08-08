@@ -4,13 +4,20 @@
   "private": true,
   "homepage": "http://JacksonPaulHeck.github.io/JPHeckPages",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.10",
-    "@testing-library/react": "^11.2.6",
-    "@testing-library/user-event": "^12.8.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.1"
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "^4.11.2",
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@testing-library/user-event": "latest",
+    "chokidar": "latest",
+    "generate-react-cli": "latest",
+    "material-ui-image": "^3.3.2",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "latest",
+    "web-vitals": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -39,6 +46,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "gh-pages": "latest"
   }
 }
