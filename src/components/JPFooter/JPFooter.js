@@ -17,8 +17,7 @@ const useStyles = makeStyles((theme) => ({
     flexShrink: 0,
     padding: 20,
     borderRadius: '12px',
-    position: 'fixed',
-    bottom: 0,
+
   },
   jpfooter_content: {
     color: '#ffffff',

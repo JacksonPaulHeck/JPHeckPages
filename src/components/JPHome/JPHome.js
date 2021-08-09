@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'space-around',
     alignContent: 'center',
     [theme.breakpoints.down('sm')]: {
-      flexDirection: 'row',
+      flexDirection: 'column',
     },
   },
   jphome_column_middle: {
