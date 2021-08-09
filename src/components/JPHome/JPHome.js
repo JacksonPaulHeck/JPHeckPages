@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
   jphome: {
     display: 'flex',
     flexDirection: 'row',
-    alignItems: 'center',
+    alignItems: 'stretch',
     justifyContent: 'space-evenly',
     alignContent: 'center',
     [theme.breakpoints.down('sm')]: {
@@ -36,7 +36,6 @@ const useStyles = makeStyles((theme) => ({
     alignItems: 'center',
     justifyContent: 'center',
     alignContent: 'center',
-    flexShrink: 5,
   },
   jphome_portrait: {
     maxWidth: '100%',
