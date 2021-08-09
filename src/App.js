@@ -7,10 +7,13 @@ import JPCommAndLead from './components/JPCommAndLead/JPCommAndLead';
 import JPHonorsAndAwards from './components/JPHonorsAndAwards/JPHonorsAndAwards';
 import JPActivities from './components/JPActivities/JPActivities';
 import JPEduAndCreds from './components/JPEduAndCreds/JPEduAndCreds';
+import JPFooter from './components/JPFooter/JPFooter';
+import JPProjects from './components/JPProjects/JPProjects';
 import { CssBaseline } from '@material-ui/core';
 import { makeStyles, useTheme, responsiveFontSizes } from '@material-ui/core/styles';
 import './App.css';
 import clsx from 'clsx';
+import { ViewColumn } from '@material-ui/icons';
 
 
 const drawerWidth = 250;
@@ -18,12 +21,15 @@ const drawerWidth = 250;
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-around',
   },
   appBar: {
     transition: theme.transitions.create(['margin', 'width'], {
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
     }),
+    backgroundColor: '#282c34',
   },
   appBarShift: {
     width: `calc(100% - ${drawerWidth}px)`,
@@ -55,33 +61,17 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'flex-end',
   },
   content: {
-    flexGrow: 1,
-    transition: theme.transitions.create('margin', {
-      easing: theme.transitions.easing.sharp,
-      duration: theme.transitions.duration.leavingScreen,
-    }),
-    marginLeft: 100,
-    marginRight: 100,
-    marginTop: 50,
+    flex: '1 0 auto',
+    marginLeft: 0,
+    marginRight: 0,
+    marginTop: 30,
     minWidth: 0,
   },
   contentShift: {
-    transition: theme.transitions.create('margin', {
-      easing: theme.transitions.easing.easeOut,
-      duration: theme.transitions.duration.enteringScreen,
-    }),
-    marginLeft: 50 + drawerWidth,
-    marginRight: 50,
-    marginTop: 50,
+    marginLeft: 0,
+    marginRight: 0,
+    marginTop: 30,
     minWidth: 0,
-  },
-  jphome: {
-    display: 'flex',
-    marginBottom: 100,
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
-    alignContent: 'center',
   },
 }));
 
@@ -89,7 +79,7 @@ function App() {
   const classes = useStyles();
   var theme = useTheme();
   theme = responsiveFontSizes(theme);
-
+  
   const [open, setOpen] = React.useState(false);
 
   const handleDrawerOpen = () => {
@@ -101,7 +91,8 @@ function App() {
   };
 
   return (
-    <main>
+    <>
+    <main className={classes.root}>
       <CssBaseline />
       <JPHeader
         theme = {theme}
@@ -111,8 +102,6 @@ function App() {
         handleDrawerClose = {handleDrawerClose}
         pageTitle = "Jackson Paul Heck Resume"
       />
-      <div className={classes.root}>
-
           <div
           className={clsx(classes.content, {
             [classes.contentShift]: open,
@@ -154,10 +143,20 @@ function App() {
           render={(props) => (
             <JPHonorsAndAwards {...props}/>
           )}/>
+          <Route
+          exact
+          path='/JPHeckPages/Projects'
+          render={(props) => (
+            <JPProjects {...props}/>
+          )}/>
         </Switch>
         </div>
-        </div>
     </main>
+    <JPFooter
+    theme = {theme}
+    classes = {classes}
+    />
+    </>
   );
 }
 

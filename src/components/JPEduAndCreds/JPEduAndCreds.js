@@ -1,29 +1,29 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './JPEduAndCreds.css';
+import { Typography, List, ListItem } from '@material-ui/core';
 
 function JPEduAndCreds(){
     return (
-    <div className="Section">
-    <h2 className="Section-title">EDUCATION & CREDENTIALS</h2>
-    <h3>SOUTHERN METHODIST UNIVERSITY, Dallas, TX</h3>
-    <ul>
-      <li>
-        <h5>Double Major in Computer Science and Mathematics, Minor in Spanish, (Spring 2023)</h5>
-      </li>
-    </ul>
-    <ul>
-      <h4>Programming Experience</h4>
-      <li>
-        <h5>Java, JavaScript, C++, Python, TypesScript, React, AngularJS, Java Spring, SQL</h5>
-      </li>
-    </ul>
-    <ul>
-      <h4>Certifications</h4>
-      <li>
-        <h5>Arkansas Seal of Biliteracy</h5>
-      </li>
-    </ul>
+    <div>
+    <Typography variant='h2' className="Section-title">EDUCATION & CREDENTIALS</Typography>
+    <Typography variant='h3'>SOUTHERN METHODIST UNIVERSITY, Dallas, TX</Typography>
+    <List>
+      <ListItem>
+        <Typography variant="h5">Double Major in Computer Science and Mathematics, Minor in Spanish, (Spring 2023)</Typography>
+      </ListItem>
+    </List>
+    <List>
+      <Typography variant="h4">Programming Experience</Typography>
+      <ListItem>
+        <Typography variant="h5">Java, JavaScript, C++, Python, TypesScript, React, AngularJS, Java Spring, SQL</Typography>
+      </ListItem>
+    </List>
+    <List>
+      <Typography variant="h4">Certifications</Typography>
+      <ListItem>
+        <Typography variant="h5">Arkansas Seal of Biliteracy</Typography>
+      </ListItem>
+    </List>
     </div>
   );
 };

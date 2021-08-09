@@ -12,7 +12,7 @@ function JPDrawer(props){
 
     <Drawer
       className={props.classes.drawer}
-      variant="persistent"
+      variant="temporary"
       anchor="left"
       open={props.open}
       classes={{

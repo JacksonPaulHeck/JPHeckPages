@@ -1,30 +1,31 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './JPActivities.css';
+import { Typography, List, ListItem, Paper } from '@material-ui/core';
 
 function JPActivities(){
   return (
-    <div className="Section">
-    <h2 className="Section-title">EXTRACURRICULAR ACTIVITIES</h2>
-    <h3>SOUTHERN METHODIST UNIVERSITY, Dallas, TX</h3>
-    <ul>
-      <li>
-        <h5>SMU Ultimate Frisbee Team</h5>
-      </li>
-      <li>
-        <h5>SMU Computer Science Club</h5>
-      </li>
-      <li>
-        <h5>Kappa Sigma Fraternity – Delta Pi Chapter</h5>
-      </li>
-    </ul>
-    <h3>NATIONWIDE</h3>
-    <ul>
-      <li>
-        <h5>World Cube Association - Competitor, Judge</h5>
-      </li>
-    </ul>
-    </div>
+    <Paper>
+    <Typography variant='h2'>EXTRACURRICULAR ACTIVITIES</Typography>
+    <Typography variant='h3'>SOUTHERN METHODIST UNIVERSITY, Dallas, TX</Typography>
+    <List>
+      <ListItem>
+        <Typography variant='h5'>SMU Ultimate Frisbee Team</Typography>
+      </ListItem>
+      <ListItem>
+        <Typography variant='h5'>SMU Computer Science Club</Typography>
+      </ListItem>
+      <ListItem>
+        <Typography variant='h5'>Kappa Sigma Fraternity – Delta Pi Chapter</Typography>
+      </ListItem>
+    </List>
+    <Typography variant='h3'>NATIONWIDE</Typography>
+    <List>
+      <ListItem>
+        <Typography variant='h5'>World Cube Association - Competitor, Judge</Typography>
+      </ListItem>
+    </List>
+    </Paper>
   );
 }
 
